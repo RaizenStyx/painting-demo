@@ -11,7 +11,7 @@ export default function Footer() {
         {/* Brand Column */}
         <div className="flex flex-col gap-4">
           <div className="text-2xl font-black tracking-tighter text-white">
-            KN<span className="text-brand-primary">Painting</span>
+            Demo<span className="text-brand-primary">Painting</span>
           </div>
           <p className="text-sm text-gray-400">
             Providing top-quality residential and commercial painting services for our local community.
@@ -29,18 +29,18 @@ export default function Footer() {
         {/* Contact Info */}
         <div className="flex flex-col gap-3">
           <h3 className="text-white font-semibold mb-2">Contact Us</h3>
-          <a href="tel:+1234567890" className="hover:text-blue-400 text-sm transition-colors w-fit">
+          <a href="tel:+1234567890" className="hover:text-brand-primary text-sm transition-colors w-fit">
             (123) 456-7890
           </a>
-          <a href="mailto:contact@painterdemo.com" className="hover:text-blue-400 text-sm transition-colors w-fit">
-            contact@painterdemo.com
+          <a href="mailto:contact@demopainting.com" className="hover:text-brand-primary text-sm transition-colors w-fit">
+            contact@demopainting.com
           </a>
         </div>
       </div>
 
       {/* Bottom Bar */}
       <div className="max-w-6xl mx-auto border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-        <p>&copy; {currentYear} KNPainting Demo. All rights reserved.</p>
+        <p>&copy; {currentYear} DemoPainting. All rights reserved.</p>
         
         <div className="flex gap-4">
           <Link href="/privacy" className="hover:text-white transition-colors">

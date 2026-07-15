@@ -18,7 +18,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logo Area */}
         <div className="text-2xl font-black tracking-tighter text-brand-primary">
-          <Link href="/">KN<span className="text-gray-900">Painting</span></Link>
+          <Link href="/">Demo<span className="text-gray-900">Painting</span></Link>
         </div>
 
         {/* Desktop Navigation */}
@@ -82,7 +82,7 @@ export default function Header() {
                 key={link.name} 
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)} // Close menu on click
-                className="text-lg font-medium text-gray-800 hover:text-blue-600"
+                className="text-lg font-medium text-gray-800 hover:text-brand-primary"
               >
                 {link.name}
               </Link>
@@ -91,7 +91,7 @@ export default function Header() {
             <Link 
               href="#contact"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="text-center w-full px-5 py-3 bg-blue-600 text-white rounded-md font-semibold"
+              className="text-center w-full px-5 py-3 bg-brand-primary rounded-md font-semibold"
             >
               Get a Quote
             </Link>
