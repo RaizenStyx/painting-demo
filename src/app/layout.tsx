@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "KN Painting",
+  title: "DemoPainting",
   description: "Future SEO Description",
 };
 
